@@ -39,6 +39,7 @@ This template uses a simple HTML meta refresh to redirect visitors from your Git
 Edit `index.html` and change this line:
 ```html
 <meta http-equiv="refresh" content="0;url=https://example.com" />
+<link rel="canonical" href="https://example.com" />
 ```
 
 Replace `https://example.com` with your actual domain.
